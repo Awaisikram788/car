@@ -1,0 +1,45 @@
+        .topnav {
+            width: 100%;
+            height: 6pc;
+            background-image: linear-gradient(#060606, #82847C);
+            overflow: auto;
+        }
+        
+        .topnav a {
+            float: right;
+            text-align: right;
+            padding: 35px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .topnav img {
+            vertical-align: bottom;
+            transform-origin: left;
+        }
+        /* BODY */
+        
+        body {
+            width: 100%;
+            max-height: 75pc;
+            background-image: url("icon.jpg");
+            image-resolution: 1920*1080p;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        
+        .form {
+            margin: 0 auto;
+            display: block;
+            object-fit: cover;
+        }
+        
+        .form h1 {
+            text-align: center;
+            color: silver;
+        }
+        
+        .form h2 {
+            text-align: center;
+            color: silver;
+        }
